@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">413706645745-ups3ro1dc3qj4870rnv45o0f6knesh96.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">413706645745</string>
+    <string name="google_api_key" translatable="false">AIzaSyBz1wfxPFzZLJTV_Bn9bhfPPBhBW7EOsxQ</string>
+    <string name="google_app_id" translatable="false">1:413706645745:android:6e074ddff9df2a5a0a7950</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBz1wfxPFzZLJTV_Bn9bhfPPBhBW7EOsxQ</string>
+    <string name="google_storage_bucket" translatable="false">jetnett-proje.appspot.com</string>
+    <string name="project_id" translatable="false">jetnett-proje</string>
+</resources>
