@@ -24,7 +24,7 @@ Her hesap icin farkli kisisel veriler saklanmistir.
 
 https://i.hizliresim.com/od81oww.png
 
-https://www.hizliresim.com/6zp5rrl.png
+https://i.hizliresim.com/6zp5rrl.png
 
 https://i.hizliresim.com/911medn.png
 
