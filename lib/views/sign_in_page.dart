@@ -81,8 +81,12 @@ class _SignInPageState extends State<SignInPage> {
               color: Colors.yellow,
               child: Text('Sign In Email/PassWord'),
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => EmailSignInPage()));
+                _isLoading
+                    ? null
+                    : Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => EmailSignInPage()));
               },
             ),
             SizedBox(height: 10),
