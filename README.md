@@ -14,3 +14,11 @@ Daha once Python pickle ile local database deneyimim olsa bile hive benim icin y
 
 
 Birkac videodaki projeleri birlestirip uzerlerinde kendi degisikliklerimi yaptim.
+
+
+Screenshotlar emulator ile cekilmistir ve bu yuzden farkli konumlar gozukmektedir.
+
+
+Her hesap icin farkli kisisel veriler saklanmistir.
+
+
