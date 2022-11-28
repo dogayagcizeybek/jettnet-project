@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
   Position? position;
 
   Map<String, dynamic> dataMap = {
-    "sehir": 'Denizli',
+    "sehir": null,
     "temps": List.filled(5, 30),
     "abbrs": List.filled(5, "Gunesli"),
     "epochdates": List.filled(5, 0)
@@ -120,7 +120,7 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
         body: Container(
-          child: dataMap["temps"]![0] == null
+          child: dataMap["sehir"] == null
               ? Center(child: CircularProgressIndicator())
               : Scaffold(
                   backgroundColor: Colors.transparent,
