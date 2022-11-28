@@ -1,17 +1,30 @@
-# jettnet_project
+Api'de 10 gunluk veri bozuk oldugu icin 5 gunluk veriyi tercih ettim.
 
-A new Flutter project.
 
-## Getting Started
+Sadece Android'de konum izinleriyle ilgili testleri gerceklestirdigim icin proje sadece Android'de saglikli calismaktadir.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Api deneme sayisini limitlemis bu yuzden bircok kere kullanildiginda cok fazla istek atildi hatasi verilebilir.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# jettnet_project
+Local veri tabanina kayit gerceklestiriliyor ve internet kapatildiginda local veri tabanindan yukleme islemi gerceklestiriliyor.
+
+
+Daha once Python pickle ile local database deneyimim olsa bile hive benim icin yeni oldugu icin biraz acemi bir veri isleme gerceklestirmis olabilirim.
+
+
+Birkac videodaki projeleri birlestirip uzerlerinde kendi degisikliklerimi yaptim.
+
+
+Screenshotlar emulator ile cekilmistir ve bu yuzden farkli konumlar gozukmektedir.
+
+
+Her hesap icin farkli kisisel veriler saklanmistir.
+
+
+https://i.hizliresim.com/od81oww.png
+
+https://i.hizliresim.com/6zp5rrl.png
+
+https://i.hizliresim.com/911medn.png
+
