@@ -16,15 +16,15 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  String sehir = 'Denizli';
   String? uid;
   var locationData;
   var Key;
-  String apiKey = "y28amEFta50t9ca1fi2Fg39JGQfJ07hL";
+  String apiKey = "TjQWPHXyrpbsfmhTKFXSOfN7gpcJoZmf";
 
   Position? position;
 
-  Map<String, List> dataMap = {
+  Map<String, dynamic> dataMap = {
+    "sehir": 'Denizli',
     "temps": List.filled(5, 30),
     "abbrs": List.filled(5, "Gunesli"),
     "epochdates": List.filled(5, 0)
@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> getLocationData() async {
     locationData = await http.get(Uri.parse(
-        "http://dataservice.accuweather.com/locations/v1/cities/search?apikey=$apiKey=$sehir"));
+        "http://dataservice.accuweather.com/locations/v1/cities/search?apikey=$apiKey=${dataMap["sehir"]}"));
     var locationDataParsed = jsonDecode(locationData.body);
     Key = locationDataParsed['Key'];
   }
@@ -74,7 +74,7 @@ class _HomePageState extends State<HomePage> {
     var locationDataParsed = jsonDecode(utf8.decode(locationData.bodyBytes));
     print(locationDataParsed.toString());
     Key = locationDataParsed['Key'];
-    sehir = locationDataParsed["LocalizedName"];
+    dataMap["sehir"] = locationDataParsed["LocalizedName"];
     print(Key);
   }
 
@@ -99,7 +99,7 @@ class _HomePageState extends State<HomePage> {
     print(uid);
     if (box!.get(uid) != null) {
       print(box!.get(uid));
-      dataMap = Map<String, List>.from(box!.get(uid));
+      dataMap = Map<String, dynamic>.from(box!.get(uid));
     }
     getDataFromAPI();
     super.initState();
@@ -149,7 +149,7 @@ class _HomePageState extends State<HomePage> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
                             Text(
-                              '$sehir',
+                              dataMap["sehir"],
                               style: TextStyle(fontSize: 30, shadows: <Shadow>[
                                 Shadow(
                                     color: Colors.black38,
