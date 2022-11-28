@@ -22,7 +22,7 @@ Screenshotlar emulator ile cekilmistir ve bu yuzden farkli konumlar gozukmektedi
 Her hesap icin farkli kisisel veriler saklanmistir.
 
 
-[url=https://www.hizliresim.com/od81oww][img]https://i.hizliresim.com/od81oww.png[/img][/url]
+https://i.hizliresim.com/od81oww.png
 
-[url=https://www.hizliresim.com/911medn][img]https://i.hizliresim.com/911medn.png[/img][/url]
+https://i.hizliresim.com/911medn.png
 
